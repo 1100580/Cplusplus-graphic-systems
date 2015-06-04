@@ -1,0 +1,24 @@
+﻿Build started 26/11/2012 10:36:37.
+     1>Project "C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Aula2\Aula2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Aula2.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\i100580\documents\visual studio 2010\projects\aula2\aula2\main.cpp(56): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\i100580\documents\visual studio 2010\projects\aula2\aula2\main.cpp(250): warning C4060: switch statement contains no 'case' or 'default' labels
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Aula2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.exe not found or not built by the last incremental link; performing full link
+         Aula2.vcxproj -> C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Debug\Aula2.exe;#1" /manifest Debug\Aula2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Aula2.unsuccessfulbuild".
+         Touching "Debug\Aula2.lastbuildstate".
+     1>Done Building Project "C:\Users\i100580\Documents\Visual Studio 2010\Projects\Aula2\Aula2\Aula2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29

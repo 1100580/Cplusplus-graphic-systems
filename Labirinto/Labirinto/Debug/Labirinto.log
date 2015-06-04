@@ -1,0 +1,21 @@
+﻿Build started 10/01/2013 00:22:54.
+     1>Project "C:\Users\i100580\Documents\ISEP\SGRAI\Labirinto\Labirinto\Labirinto.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Labirinto.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\i100580\Documents\ISEP\SGRAI\Labirinto\Debug\Labirinto.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Labirinto.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\i100580\Documents\ISEP\SGRAI\Labirinto\Debug\Labirinto.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\i100580\Documents\ISEP\SGRAI\Labirinto\Debug\Labirinto.lib" /MACHINE:X86 Debug\Aula8_Template.obj
+         Debug\math.obj
+         Debug\mdlviewer.obj
+         Debug\readjpeg.obj
+         Debug\studio_render.obj
+         Debug\studio_utils.obj
+     1>LINK : fatal error LNK1104: cannot open file 'libjpeg.lib'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6006: "link.exe" exited with code 1104.
+     1>Done Building Project "C:\Users\i100580\Documents\ISEP\SGRAI\Labirinto\Labirinto\Labirinto.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.07
